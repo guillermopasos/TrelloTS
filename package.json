@@ -7,7 +7,8 @@
     "code-gen": "playwright codegen https://trello.com/",
     "login": "playwright test --headed --project=chromium",
     "html": "npx playwright show-report",
-    "login-debug": "playwright test --headed --project=chromium --debug"
+    "login-debug": "playwright test --headed --project=chromium --debug",
+    "api-test": "playwright test --project=chromium"
   },
   "keywords": [],
   "author": "",

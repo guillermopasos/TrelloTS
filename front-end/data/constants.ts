@@ -4,6 +4,8 @@ dotenv.config();
 export const CREDENTIALS = {
     username: process.env.TRELLO_USERNAME,
     password: process.env.TRELLO_PASSWORD,
+    token: process.env.TOKEN,
+    key: process.env.KEY,
 }
 
 export const URLS = {
@@ -16,6 +18,8 @@ export const CARD_DATA = {
         doing: 'Doing',
        done: 'Done'
     },
-    cardTitle: 'This is a test card'
+    cardTitle: 'Isashiburitaneeeee Garaxto Kun',
+    editedCardTitle:'This is a test for edited name',
+    idList:'6610411bb2718989304cc9e0',
 
 }
